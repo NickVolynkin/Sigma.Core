@@ -1,2 +1,2 @@
-# eclipse-composite-launch-configuration
-An Eclipse plugin to provide management of composite launch configurations.
+# Sigma
+An Eclipse IDE plugin for managing composite launch configurations.
