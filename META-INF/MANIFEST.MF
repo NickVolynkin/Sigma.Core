@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sigma.Core
+Bundle-SymbolicName: io.github.nickvolynkin.sigma.core;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: io.github.nickvolynkin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
