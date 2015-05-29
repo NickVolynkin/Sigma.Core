@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.4"?>
 <plugin>
-
+	<extension
+         point="org.eclipse.debug.core.launchConfigurationTypes">
+      <launchConfigurationType
+            delegate="io.github.nickvolynkin.sigma.core.SigmaLaunchConfigurationDelegate"
+            id="io.github.nickvolynkin.sigma.core.SigmaLaunchConfigurationType"
+            modes="run, debug"
+            name="Composite Launch Configuration">
+      </launchConfigurationType>
+   </extension>
    <extension
          point="org.eclipse.help.toc">
       <toc
